@@ -5,7 +5,7 @@ const Countries = () => {
   const countries = useSelector((state) => state);
 
   return (
-    <div>
+    <div className="container">
       { countries.map((country) => (
         <div key={country.id}>
           <h2>{country.name.common}</h2>
