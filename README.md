@@ -5,12 +5,20 @@
 
 ## Built With
 
-- React
-- Redux
+-  HTML
+-  CSS
+-  React
+-  Redux
+-  Jest
 
 ## Get Live Demo
 
 [Live Demo Link]()
+
+## Prerequisites
+- VSCode
+- Git
+-  Browser With Developer Tools
 
 
 ## Getting Started
