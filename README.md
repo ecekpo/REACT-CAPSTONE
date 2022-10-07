@@ -20,7 +20,6 @@
 - Git
 -  Browser With Developer Tools
 
-
 ## Getting Started
 
 Run the following commands to clone and run it.
@@ -35,15 +34,18 @@ Run the following commands to clone and run it.
 
 ### To Install Packages
 
-`npx create-react-app metrix-app'`
+`npx create-react-app metrics-app'`
 
 ### To run project on local server
 
-`npm start`
+`npm start to install dependencies`
 
 ### To open project with vs code 
 
 `code .`
+
+### Run Test
+Use npm test a to run all the Jest test.
 
 ## Authors
 
@@ -67,4 +69,3 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 This project is [MIT](./MIT.md) licensed.
-

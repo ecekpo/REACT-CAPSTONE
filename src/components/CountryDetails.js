@@ -1,31 +1,44 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { useLocation } from 'react-router-dom';
+import { fetchCountryDetails } from '../redux/countryDetails/countryDetails';
+import '../App';
+import '../index.css';
 
-const Countries = () => {
-  const countries = useSelector((state) => state);
+const CountryDetails = () => {
+  const { countryDetails } = useSelector((state) => state.countryDetail);
+  const dispatch = useDispatch();
+  const { state } = useLocation();
 
+  useEffect(() => {
+    dispatch(fetchCountryDetails(state));
+  }, []);
+
+  console.log(countryDetails);
   return (
-    <div className="container">
-      { countries.map((country) => (
-        <div key={country.id}>
-          <h2>{country.name.common}</h2>
-          <img src={country.flags.svg} alt="Flag" />
-          <h3>{country.capital}</h3>
-          <h3>{country.area}</h3>
-          <h3>country.population</h3>
-          <h3>{country.continents}</h3>
-          <h3>{country.region}</h3>
-          <h3>{country.subregion}</h3>
-          <h3>{country.timezones}</h3>
-          <h3>country.name.official</h3>
-          <h3>{country.startOfWeek}</h3>
-          <h3>{country.googleMaps}</h3>
-          <h3>country.borders</h3>
-          <h3>country.languages.area</h3>
+    <div className="container_CountryDetails">
+      {countryDetails.map((country) => (
+        <div className="card_CountryDetails" key={country.id}>
+          <div className="details_top">
+            <h2>{country.name.common}</h2>
+            <img className="flag" src={country.flags.svg} alt="Flag" />
+          </div>
+          <h3 className="capital">
+            Capital City:
+            {country.capital}
+          </h3>
+          <h3 className="area">
+            Area In Kilometres:
+            {country.area}
+          </h3>
+          <h3 className="population">
+            Population In Millions:
+            {country.population}
+          </h3>
         </div>
       ))}
     </div>
   );
 };
 
-export default Countries;
+export default CountryDetails;
