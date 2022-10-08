@@ -1,12 +1,12 @@
 import { fetchmainCountry, fetchCountry, fetchCountries } from '../mocks/actions';
 
 describe('actions', () => {
-  it('should have a type of FETCH_SPOTLIGHT', () => {
-    const text = 'Kenya';
+  it('should have a type of FETCH_MAIN_COUNTRY', () => {
+    const text = 'Nigeria';
     const id = 1;
     const expectedAction = {
-      type: 'FETCH_SPOTLIGHT',
-      text: 'Kenya',
+      type: 'FETCH_MAIN_COUNTRY',
+      text: 'Nigeria',
       id: 1,
     };
 
