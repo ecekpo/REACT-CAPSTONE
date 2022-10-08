@@ -11,6 +11,11 @@
 -  Redux
 -  Jest
 
+
+![Home Page](https://user-images.githubusercontent.com/101729024/194726463-15d6fa02-8e4f-492d-b082-5b8e7b2fd182.png)
+
+![Details Page](https://user-images.githubusercontent.com/101729024/194726454-29b1202b-cd0a-4790-b8a8-ddab9e82583a.png)
+
 ## Get Live Demo
 
 [Live Demo Link](https://fancy-lolly-0661cb.netlify.app/)
