@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fd3354;
+  color: #fff;
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
+}
