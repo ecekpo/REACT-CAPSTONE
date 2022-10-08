@@ -13,7 +13,7 @@
 
 ## Get Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://fancy-lolly-0661cb.netlify.app/)
 
 ## Prerequisites
 - VSCode
