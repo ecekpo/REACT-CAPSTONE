@@ -63,7 +63,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- Hat tip to anyone whose code was used
+- Hat tip to  Nelson Sakwa the author of the original design.
 - Inspiration
 - etc
 

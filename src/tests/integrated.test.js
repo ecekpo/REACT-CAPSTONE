@@ -7,11 +7,11 @@ beforeEach(() => {
 it('should display country name', async () => {
   fetch.mockResponse(JSON.stringify([{
     name: {
-      common: 'Kenya',
+      common: 'nigeria',
     },
   }]));
 
-  const name = await fetchCountriesFromApi('Nigeria');
+  const name = await fetchCountriesFromApi('nigeria');
 
-  expect(name).toEqual([{ name: { common: 'Nigeria' } }]);
+  expect(name).toEqual([{ name: { common: 'nigeria' } }]);
 });

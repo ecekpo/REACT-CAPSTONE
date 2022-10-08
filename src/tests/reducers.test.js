@@ -1,6 +1,6 @@
 import countriesReducer from '../redux/country/country';
 import countryDetailsReducer from '../redux/countryDetails/countryDetails';
-import countrySpotlightReducer from '../redux/mainCountry/mainCountry';
+import mainCountryReducer from '../redux/mainCountry/mainCountry';
 
 describe('countriesReducer', () => {
   it('should return the initial state', () => {
@@ -14,19 +14,19 @@ describe('countriesReducer', () => {
 
 describe('countryDetailsReducer', () => {
   it('should return the initial state', () => {
-    const expected = { countryDetailsList: [] };
+    const expected = { countryDetails: [] };
 
-    const result = countryDetailsReducer(undefined, { countryDetailsList: [] });
+    const result = countryDetailsReducer(undefined, { countryDetails: [] });
 
     expect(result).toEqual(expected);
   });
 });
 
-describe('countrySpotlightReducer', () => {
+describe('mainCountryReducer', () => {
   it('should return the initial state', () => {
-    const expected = { countrySpotlight: [] };
+    const expected = { mainCountry: [] };
 
-    const result = countrySpotlightReducer(undefined, { countrySpotlight: [] });
+    const result = mainCountryReducer(undefined, { mainCountry: [] });
 
     expect(result).toEqual(expected);
   });
