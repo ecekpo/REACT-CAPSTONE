@@ -16,6 +16,9 @@
 
 ![Details Page](https://user-images.githubusercontent.com/101729024/194726454-29b1202b-cd0a-4790-b8a8-ddab9e82583a.png)
 
+
+[Video link] {( https://www.loom.com/share/a1a6e57b120d48c58a134ae0eb5027c8)}
+
 ## Get Live Demo
 
 [Live Demo Link](https://fancy-lolly-0661cb.netlify.app/)
