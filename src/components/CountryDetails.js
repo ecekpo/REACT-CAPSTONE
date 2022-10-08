@@ -12,9 +12,9 @@ const CountryDetails = () => {
 
   useEffect(() => {
     dispatch(fetchCountryDetails(state));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log(countryDetails);
   return (
     <div className="container_CountryDetails">
       {countryDetails.map((country) => (

@@ -1,0 +1,22 @@
+.main_card {
+  padding-bottom: 19px;
+  border-bottom: thin solid;
+  margin-bottom: 16px;
+}
+
+.main-card-container {
+  display: flex;
+  gap: 16px;
+}
+
+.main-card-container .main-flag {
+  width: 186px;
+}
+
+.main-card-container .main_card_text {
+  font-size: 14px;
+}
+
+.main-population {
+  font-weight: 400;
+}

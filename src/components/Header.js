@@ -7,13 +7,15 @@ import '../App.css';
 import '../index.css';
 
 const Header = ({ year }) => (
-  <header>
-    <Navbar />
-    <h2>{year}</h2>
+  <header className="header">
+    <div className="year-chevron">
+      <Navbar />
+      <h2 className="header-year">{year}</h2>
+    </div>
     <h2 className="header-heading">WORLD COUNTRIES STATISTICS</h2>
     <div className="header-icons">
-      <FaMicrophone className="icon" />
-      <AiOutlineSetting className="icon" />
+      <FaMicrophone className="header-icon" />
+      <AiOutlineSetting className="header-icon" />
     </div>
   </header>
 );
