@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # React capstone project - Metrics webapp
-> This React Redux capstone project mobile web application which uses Rest Countries Api to provide World Statistics (numeric values) such as the population, area and many other data of each country of the world. I
+> This React Redux capstone project mobile web application which uses Rest Countries Api to provide World Statistics (numeric values) such as the population, area and many other data of each country of the world. 
 
 ## Built With
 
